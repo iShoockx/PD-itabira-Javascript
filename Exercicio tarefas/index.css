@@ -52,7 +52,7 @@ body {
     align-items: center;
     margin-bottom: 10px;
   }
-  .item-tarefa label {
+  .legenda{
     font-size: 1rem;
     flex: 1;
     cursor: pointer;
@@ -60,10 +60,11 @@ body {
   .item-tarefa input[type="checkbox"] {
     margin-right: 10px;
   }
-  .item-tarefa.concluida label {
+  .concluida.legenda {
     text-decoration: line-through;
     color: #777;
   }
-  .item-tarefa.nao-concluida label {
+  .nao-concluida.legenda {
     color: #333;
   }
+  
