@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+  }
+  .container {
+    width: 300px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  .entrada-tarefa {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  .entrada-tarefa input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  .entrada-tarefa button {
+    padding: 8px 12px;
+    font-size: 1rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .entrada-tarefa button:hover {
+    background-color: #218838;
+  }
+  .tarefas {
+    list-style-type: none;
+    padding: 0;
+  }
+  .item-tarefa {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .item-tarefa label {
+    font-size: 1rem;
+    flex: 1;
+    cursor: pointer;
+  }
+  .item-tarefa input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  .item-tarefa.concluida label {
+    text-decoration: line-through;
+    color: #777;
+  }
+  .item-tarefa.nao-concluida label {
+    color: #333;
+  }
