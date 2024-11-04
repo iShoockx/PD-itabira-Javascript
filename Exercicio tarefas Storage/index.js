@@ -2,12 +2,10 @@
 console.log(tarefas)
 
 function adicionartarefa(){
-    const descriçao = document.getElementById('descriçao').value.trim().split(',')
-    tarefas.push({descriçao: descriçao,status:false})
+    const descriçao = document.getElementById('descriçao')
+    tarefas.push({descriçao: descriçao.value.trim().split(','),status:false})
     descriçao.value = '' // limpar o input
     renderizar()
-    
-
 }
 
 function alternarstatus(indice){
