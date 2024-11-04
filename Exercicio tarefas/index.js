@@ -1,6 +1,6 @@
 let tarefas = [];
 
-
+console.log(tarefas)
 function adicionartarefa(){
     const descriçao = document.getElementById('descriçao').value.trim().split(',')
     tarefas.push({descriçao: descriçao,status:false})
