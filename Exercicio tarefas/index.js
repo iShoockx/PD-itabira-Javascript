@@ -35,9 +35,9 @@ function renderizar(){
         const label = document.createElement('label')
         label.textContent = tarefa.descriçao
 
-        itemTarefa.appendChild(checkbox);
-        itemTarefa.appendChild(label);
-        listaTarefas.appendChild(itemTarefa);
+        itemtarefa.appendChild(checkbox);
+        itemtarefa.appendChild(label);
+        listaTarefas.appendChild(itemtarefa);
     })
 }
 
