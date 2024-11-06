@@ -1,0 +1,120 @@
+html{
+    margin: 0;
+}
+body{
+    height: auto;
+    width: auto;
+    background-color: #000;
+    margin: 0;
+}
+#principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.img-avatar {
+    width: 50px;
+    border-radius: 100%;
+}
+#formulario-post {
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    color: #ffffff;
+    padding: 15px;
+    border: 1px solid #2f3336;
+}
+
+/* estilo para o input */
+#formulario-post input[type="text"] {
+    background-color: #253341;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0px 20px 50px;
+}
+
+/* texto do input */
+#formulario-post input[type="text"]::placeholder {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #8899a6;
+}
+#formulario-post button {
+    align-self: flex-end;
+    background-color: #1d9bf0;
+    color: #ffffff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#formulario-post button:hover {
+    transition: 300ms;
+    background-color: #1d9cf0b3;
+}
+.div-post{
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    color: #ffffff;
+    padding: 15px;
+    border: 1px solid #2f3336;
+}
+#boxes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 0;
+}
+.box{
+    list-style-type: none
+}
+.perfil {
+    display: flex;
+    flex-direction: row;
+}
+#nome-usuario{
+    margin-left: 15px;
+}
+#data{
+    margin-left: 15px;
+    color: #4c4d4e;
+}
+.postagem{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 20px 50px;
+}
+#texto-post{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#gatinho{
+    width: 40%;
+    height: 10%;
+    border-radius: 20px;
+    margin: 0 25%;
+}
+#like{
+    background: none; 
+    border: none; 
+    cursor: pointer;
+    fill: #ffffff85;
+    margin-left: 510px;
+}
+#like:hover{
+    transition: 300ms;
+    fill: #fff;
+}
+#like:active{
+    transition: 200ms;
+    fill: #FF0000;
+}
+#numero_like{
+    color: #ffffff85; 
+    font-weight: bold;
+}
